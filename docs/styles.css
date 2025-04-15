@@ -1,0 +1,95 @@
+--> issue! no hit box on h1 when tab is minimized would like to put full nav bar below digitworks text when minimized
+--> issue! not serious at all but i am fighting for my life to do javascript to no avail
+
+body {
+
+    cursor: url(), auto;
+    background-image: url("support/hbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-family: "Trebuchet MS"
+}
+.rb {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'sans-serif';
+    font-size: 8em;
+    font-weight: 800;
+    padding-right: 6em;
+
+    background-image: 
+    linear-gradient(to right, #FF3030, #ED9A23, #FFD975, #D8FF5F, #6FFF75, #70FFF9, #6EA3FF, #AB5DFF, #FF58D8, #FF3030);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 120s linear infinite;
+
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+p {
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+}
+.blocka {
+
+    background-image: 
+    linear-gradient(to top, #E4FFF6, #FFFEFE);
+    padding: 1em;
+    border-radius: 1em;
+}
+li {
+    float: right;
+    padding-right: 3em;
+    padding-top: 2em;
+            text-decoration: none;
+
+    
+}
+a {
+        text-decoration: none;
+}
+p.nbar:hover {
+    color:blue;
+}
+.nbar {
+    width: 6em;
+    font-weight: 300;
+    text-align: center;
+    background-image: 
+    linear-gradient(to top, #E4FFF6, #FFFEFE);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+table {
+    font-family: "Trebuchet MS";
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e5f9ee;
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight:200;
+}
+
+tr:nth-child(even) {
+    background-color: #f0fdf7;
+}
+.thead {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
+}
