@@ -8,8 +8,7 @@
     
 }
 body {
-
-    cursor: url(), auto;
+    cursor: url('support/dmouse.png'), auto;
     background-image: url("support/hbg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -102,6 +101,25 @@ tr:nth-child(even) {
     font-size: 1em;
     font-weight: 800;
 }
+
+/* CSS for mousetrails, works with rainbow.js */
+ a {
+  cursor: pointer; /* ebb: Make sure the cursor appears over links */
+}
+.box {
+    position: absolute;
+    animation: rotate 2.5s infinite linear;
+    margin: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 9999;
+    border-radius: 50%;
+}
+ @keyframes rotate {
+   100% {
+     transform: rotate(360deg);
+   }
+ }
 
 
 
