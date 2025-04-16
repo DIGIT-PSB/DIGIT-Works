@@ -2,10 +2,10 @@
 .banner {
     display: flex;
     width: 100%;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap:wrap
-    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap
+
 }
 body {
 
@@ -22,7 +22,7 @@ body {
     font-family: 'Trebuchet MS', 'sans-serif';
     font-size: 8em;
     font-weight: 800;
-    flex:1;
+    flex: 1;
 
     background-image: 
     linear-gradient(to right, #FF3030, #ED9A23, #FFD975, #D8FF5F, #6FFF75, #70FFF9, #6EA3FF, #AB5DFF, #FF58D8, #FF3030);
@@ -48,28 +48,28 @@ p {
 
     background-image: 
     linear-gradient(to top, #E4FFF6, #FFFEFE);
-    padding: 1em;
+    padding: 2em;
     border-radius: 1em;
 }
 ul {
-display: flex;
-list-style-type:none;
+    display: flex;
+    list-style-type: none;
 }
 li {
-    padding-right: 3em;
+    padding-right: 4em;
     padding-top: 2em;
-            text-decoration: none;
+    text-decoration: none;
 
-    
+
 }
 a {
-        text-decoration: none;
+    text-decoration: none;
 }
 p.nbar:hover {
-    color:blue;
+    color: blue;
 }
 .nbar {
-    width: 100%;
+    width: 80%;
     font-weight: 300;
     text-align: center;
     background-image: 
@@ -91,7 +91,7 @@ th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-    font-weight:200;
+    font-weight: 200;
 }
 
 tr:nth-child(even) {
@@ -102,6 +102,5 @@ tr:nth-child(even) {
     font-size: 1em;
     font-weight: 800;
 }
-
 
 
