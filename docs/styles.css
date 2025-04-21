@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: black;
-    font-family: "Trebuchet MS"
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
 }
 .rb {
     text-align: center;
