@@ -6,10 +6,9 @@
 // mouseTrail.js
 'use strict';
 
-/* ebb: A JS Class is something we can re-usa for other events.
+/* ebb: A JS Class is something we can re-use for other events.
 * The numbers provided are defaults to be used
-* if we don't set our customized values when we initiate the JS.
-* Notice how it puts boe */
+* if we don't set our customized values when we initiate the JS. */
 class Trail {
   constructor(options) {
     this.size = options.size || 50;
