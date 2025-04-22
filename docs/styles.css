@@ -15,6 +15,7 @@ body {
     background-size: cover;
     color: black;
     font-family: "Trebuchet MS", "Verdana", sans-serif;
+    font-size:larger;
 }
 .rb {
     text-align: center;
@@ -41,7 +42,7 @@ body {
 p {
     color: black;
     font-family: "Trebuchet MS";
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 .blocka {
 
@@ -50,20 +51,16 @@ p {
     padding: 2em;
     border-radius: 1em;
 }
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
 }
-li {
+nav ul li {
     padding-right: 4em;
     padding-top: 2em;
     text-decoration: none;
-
-
 }
-a {
-    text-decoration: none;
-}
+
 p.nbar:hover {
     color: blue;
 }
@@ -103,9 +100,29 @@ tr:nth-child(even) {
 }
 
 /* CSS for mousetrails, works with rainbow.js */
- a {
+ a { 
   cursor: pointer; /* ebb: Make sure the cursor appears over links */
 }
+
+ /* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: fuchsia;
+} 
 .box {
     position: absolute;
     animation: rotate 2.5s infinite linear;
