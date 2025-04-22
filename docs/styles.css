@@ -85,8 +85,7 @@ table {
 td,
 th {
     border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+    padding: .5em;
     font-weight: 200;
 }
 
@@ -94,9 +93,12 @@ tr:nth-child(even) {
     background-color: #f0fdf7;
 }
 .thead {
-    text-align: center;
-    font-size: 1em;
     font-weight: 800;
+    text-align: left;
+}
+
+span.larger { font-size: 2em; padding-left:.5em;
+    
 }
 
 /* CSS for mousetrails, works with rainbow.js */
