@@ -57,6 +57,9 @@ p {
     linear-gradient(to top, #E4FFF6, #FFFEFE);
     padding: 2em;
     border-radius: 1em;
+    width:90%;
+    display:block;
+    margin: 0 auto 5%;
 }
 nav ul {
     display: flex;
