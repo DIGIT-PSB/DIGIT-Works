@@ -19,7 +19,7 @@ body {
 }
 
 body ::selection {
-    background-color: rgba(186, 255, 48, 0.76);
+    background-color: rgba(48, 238, 255, 0.49);
 }
 a :hover {
     cursor: url('support/mouseB.svg'), auto;
@@ -88,20 +88,15 @@ table {
     font-family: "Trebuchet MS";
     border-collapse: collapse;
     width: 100%;
-    background-color: #e5f9ee;
 
 }
 
-td,
-th {
+td, th {
     border: 1px solid #dddddd;
     padding: .5em;
     font-weight: 200;
 }
 
-tr:nth-child(even) {
-    background-color: #f0fdf7;
-}
 .thead {
     font-weight: 800;
     text-align: left;
@@ -149,5 +144,43 @@ a:active {
      transform: rotate(360deg);
    }
  }
+/* class codes */
 
+.dig210:nth-child(even){
+    background-color: #f0f8fd;
+}
 
+.dig210:nth-child(odd){
+    background-color: #f0f2fd;
+}
+
+.dig409:nth-child(even){
+    background-color: #dbf3ff;
+}
+
+.dig409:nth-child(odd){
+    background-color: #e8fcff;
+}
+
+.gam220:nth-child(even){
+    background-color: #e6ffdb;
+}
+
+.gam220:nth-child(odd){
+    background-color: #f1ffe7;
+}
+
+.sen:nth-child(even){
+    background-color: #ffdbd5;
+}
+
+.sen:nth-child(odd){
+    background-color: #fff1dd;
+}
+
+tr:nth-child(even) {
+    background-color: #f0fdf7;
+}
+tr:nth-child(odd) {
+    background-color: #e5f9ee;
+}
