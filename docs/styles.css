@@ -177,7 +177,16 @@ a:active {
 .sen:nth-child(odd){
     background-color: #fff1dd;
 }
-
+.spec:nth-child(even){
+    background-color: #fff7c3;
+}
+.spec:nth-child(odd){
+    background-color: #fff7c3;
+}
+.bre:nth-child(odd){
+    background-color: #475754;
+    color: white;
+}
 tr:nth-child(even) {
     background-color: #f0fdf7;
 }
