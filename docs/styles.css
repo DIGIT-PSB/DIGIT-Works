@@ -59,7 +59,17 @@ p {
     border-radius: 1em;
     width:90%;
     display:block;
-    margin: 0 auto 5%;
+    margin: 0 auto 1%;
+}
+.footer {
+margin: 1% 3% 0;
+
+.footer p {
+    color: white;
+    
+}
+
+    color: white;
 }
 nav ul {
     display: flex;
